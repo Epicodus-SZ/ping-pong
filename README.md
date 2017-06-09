@@ -1,7 +1,10 @@
 # Ping Pong Fizz-Buzz
 A version of Fizz-Buzz, but completely different because I'm using the words Ping and Pong. Coded on 6/9/2017 by Steve Zaske.
 
-#Specifications
+## Link
+You can see the solution in action [here](https://epicodus-sz.github.io/ping-pong/).
+
+##Specifications
 |Behavior - Plain English|Input|Output|
 |---|---|---|
 |Accepts a number from 1 to 1000|#|n/a|
