@@ -5,6 +5,7 @@ A version of Fizz-Buzz, but completely different because I'm using the words Pin
 You can see the solution in action [here](https://epicodus-sz.github.io/ping-pong/).
 
 ##Specifications
+
 |Behavior - Plain English|Input|Output|
 |---|---|---|
 |Accepts a number from 1 to 1000|#|n/a|
@@ -22,13 +23,17 @@ You can see the solution in action [here](https://epicodus-sz.github.io/ping-pon
 Within the repository you'll find the following directories and files:
 
 ```
-html-dev-template/
+ping-pong/
 ├── css/
 │    ├── styles.css
 │    └── bootstrap.css
+├── img/
+│    └── boy.png
 ├── js/
+│    ├── bootstrap.min.js
 │    ├── jquery-3.2.1.js
 │    └── script.js
+├── favicon.ico
 ├── index.html
 └── README.md
 ```
