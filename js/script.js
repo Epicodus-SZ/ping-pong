@@ -25,5 +25,8 @@ $(document).ready(function() {
 });
 
 function displayResults(resultArray){
-  $("#results").text(resultArray);
+  $.each(resultArray, function(index, value){
+            $("#results").append(++index + ": " + value + '<br>');
+        });
+  // $("#results").text(resultArray);
 }

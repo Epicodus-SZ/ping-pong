@@ -1,5 +1,21 @@
 .results {
   background-color: #ccc;
+  padding: 30px;
+  border: .4px solid #555;
+  border-radius: 5px;
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+  -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+  -moz-column-rule-style: solid; /* Firefox */
+  column-rule-style: solid;
+  -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+  -moz-column-rule-width: 1px; /* Firefox */
+  column-rule-width: 1px;
+  column-rule-color: #ddd;
 }
 
 
