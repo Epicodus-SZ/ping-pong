@@ -25,7 +25,7 @@
 }
 
 .results {
-  opacity: .98;  
+  opacity: .98;
 }
 
 #results {
@@ -33,6 +33,7 @@
   line-height: 1.3em;
   font-weight: bolder;
 }
+
 
 /**********************************************/
 /* basic page layout CSS below here */
@@ -72,4 +73,14 @@ html {
   float: right;
   margin-right: 50px;
   opacity: .7;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 568px) {
+
+  .results {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+  }
 }
