@@ -11,6 +11,8 @@ A version of Fizz-Buzz, but completely different because I'm using the words Pin
 |Numbers divisible by 5 are replaced with "pong"|5|[1,2,ping,4,pong]|
 |Numbers divisible by 15 are replaced with "ping-pong"|15|[...13,14,ping-pong,16]|
 |A user can enter a new number the page resets|34|{works}|
+|If the user enters a none number it will not work|cat|FAIL|
+|if the user enters nothing or a number over 1000 it will fail|2323|FAIL|
 
 
 ## What's included

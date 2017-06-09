@@ -1,8 +1,8 @@
 .results {
   background-color: #ccc;
   padding: 30px;
-  border: .4px solid #555;
-  border-radius: 5px;
+  border: .4px solid #fff;
+  border-radius: 3px;
   -webkit-column-count: 4; /* Chrome, Safari, Opera */
   -moz-column-count: 4; /* Firefox */
   column-count: 4;
@@ -18,7 +18,9 @@
   column-rule-color: #ddd;
 }
 
-
+.invalid {
+  background-color: red;
+}
 
 
 
@@ -35,13 +37,13 @@ body {
   margin-top: 15px;
   padding: 45px;
   border: .4px solid #555;
-  border-radius: 5px;
+  border-radius: 4px;
   box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.5);
 }
 
 #footer {
   margin-top: 2px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 10px;
 }
 
