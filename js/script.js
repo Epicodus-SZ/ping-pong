@@ -36,12 +36,9 @@ $(document).ready(function() {
 
   }); // end of submit listener
 
+  //validation on input text field
   $('#inputNum').on('input', function() {
   	var input=$(this);
-  	//var re = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
-  	//var is_email=re.test(input.val());
-  	//if(is_email){input.removeClass("invalid").addClass("valid");}
-  	//else{input.removeClass("valid").addClass("invalid");}
     var re = /(?!^\d+$)^.+$/;
     if (input.val()<1 || input.val()>1000 || input.val().match(re) ){
       $("#submitButton").prop('disabled', true);
@@ -50,18 +47,25 @@ $(document).ready(function() {
       $("#submitButton").prop('disabled', false);
       input.popover('hide');
     }
+  }); // end of input event listener
+
+  $("#resetButton").click(function(){
+    $("#results").text("");
+    $("div.results").hide();
 
   });
 
-
 });
-
-
-
 
 function displayResults(resultArray){
   $.each(resultArray, function(index, value){
-            $("#results").append(++index + ": " + value + '<br>');
-        });
-  // $("#results").text(resultArray);
+      var tempString = ++index + ": " + value + "<br>";
+      $("#results").append(tempString);
+      //$("#results").append('<p>');
+      //$("#results p").append('<center>');
+      //$("#results p center").append('<center>');
+
+      //.append($'<center>').text(++index + ": " + value);
+  });
+  $("div.results").show();
 }

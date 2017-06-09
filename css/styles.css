@@ -1,5 +1,6 @@
+
 .results {
-  background-color: #ccc;
+  background-color: #b7dbab;
   padding: 30px;
   border: .4px solid #fff;
   border-radius: 3px;
@@ -16,31 +17,39 @@
   -moz-column-rule-width: 1px; /* Firefox */
   column-rule-width: 1px;
   column-rule-color: #ddd;
+  display: none;
 }
 
-.invalid {
-  background-color: red;
+.btn {
+  margin-right:10px;
 }
 
+.results {
+  opacity: .98;  
+}
 
+#results {
+  font-size: 1.2em;
+  line-height: 1.3em;
+  font-weight: bolder;
+}
 
 /**********************************************/
 /* basic page layout CSS below here */
 /**********************************************/
 
 body {
-/**  background-color: #F5F5F5;
-  /* The image used */
-  background-image: url("../img/boy.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-repeat: no-repeat;
+  background: url('../img/boy.png') no-repeat top right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   padding: 50px;
 
+}
+
+html {
+  overflow-y: scroll; /*trick to keep scroll bar from affecting bg img */
 }
 
 #container {
