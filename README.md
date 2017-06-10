@@ -4,7 +4,7 @@ A version of Fizz-Buzz, but completely different because I'm using the words Pin
 ## Link
 You can see the solution in action [here](https://epicodus-sz.github.io/ping-pong/).
 
-##Specifications
+## Specifications
 
 |Behavior - Plain English|Input|Output|
 |---|---|---|
